@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_calendar"
+        layout="activity_calendar"
+        icon="@drawable/ic_date_range_black_24dp"
+        title="Calendar"
+        barColorWhenSelected="#fd9800" />
+    <tab
+        id="@+id/tab_summary"
+        layout="activity_summary"
+        icon="@drawable/ic_pie_chart_black_24dp"
+        title="Summary"
+        barColorWhenSelected="#45e16b" />
+    <tab
+        id="@+id/tab_setting"
+        layout="activity_setting"
+        icon="@drawable/ic_settings_black_24dp"
+        title="Setting"
+        barColorWhenSelected="#3c65d6" />
+</tabs>

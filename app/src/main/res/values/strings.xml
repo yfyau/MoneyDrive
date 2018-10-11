@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">MoneyDrive</string>
+
+    <!--Edit Record Activity-->
+    <string name="chosen_date">Chosen date</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount ( %s )</string>
+    <string name="edit_expense_date_format">MMM dd yyyy</string>
+    <string name="weekly">WEEKLY</string>
+    <string name="bi_weekly">BI-WEEKLY</string>
+    <string name="monthly">MONTHLY</string>
+    <string name="yearly">YEARLY</string>
+
+    <!--Calendar Activity-->
+    <string name="account_balance_format">Balance on %s:</string>
+    <string name="account_balance_date_format">dd-MM-yyyy</string>
+
+    <string name="dialog_edit_expense_title">What do you want to do?</string>
+    <string name="dialog_edit_income_title">What do you want to do?</string>
+    <string-array name="dialog_edit_expense_choices">
+        <item>Edit expense</item>
+        <item>Delete expense</item>
+    </string-array>
+    <string-array name="dialog_edit_income_choices">
+        <item>Edit income</item>
+        <item>Delete income</item>
+    </string-array>
+
+    <string name="dialog_edit_field_title">What do you want to do?</string>
+    <string-array name="dialog_edit_field_choices">
+        <item>Edit field</item>
+        <item>Delete field</item>
+    </string-array>
+
+    <string name="dialog_edit_account_title">What do you want to do?</string>
+    <string-array name="dialog_edit_account_choices">
+        <item>Edit Account</item>
+        <item>Delete Account</item>
+        <item>Share Account</item>
+    </string-array>
+
+    <!--Recurring Spinner-->
+    <string name="recurring_expense_interval">Interval</string>
+    <string name="recurring_interval_none">None</string>
+    <string name="recurring_interval_weekly">Every week</string>
+    <string name="recurring_interval_bi_weekly">Every 2 weeks</string>
+    <string name="recurring_interval_monthly">Every month</string>
+    <string name="recurring_interval_yearly">Every year</string>
+
+    <!--Save Expense Error-->
+    <string name="no_description_error">Enter a description</string>
+    <string name="no_amount_error">Enter an amount</string>
+    <string name="negative_amount_error">Amount should be positive</string>
+    <string name="invalid_amount">Not a valid amount</string>
+</resources>

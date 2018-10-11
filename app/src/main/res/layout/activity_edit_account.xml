@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/calendarToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="35dp"
+        android:theme="?attr/actionBarTheme"
+        app:contentInsetStart="0dp">
+
+        <ImageButton
+            android:id="@+id/buttonImportAccount"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@color/caldroid_transparent"
+            app:srcCompat="@drawable/baseline_group_add_black_24" />
+
+        <ImageButton
+            android:id="@+id/buttonAddAccount"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/caldroid_transparent"
+            app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/accountRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
+

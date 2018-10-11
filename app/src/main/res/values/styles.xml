@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Caldroid -->
+    <style name="caldroid_style" parent="CaldroidDefault">
+        <item name="styleCaldroidGridView">@style/caldroid_gridview</item>
+    </style>
+
+    <style name="caldroid_gridview" parent="CaldroidDefaultGridView">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:horizontalSpacing">0dip</item>
+        <item name="android:verticalSpacing">0dip</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+    </style>
+
+    <!-- Type switch -->
+    <style name="TypeSwitchTheme">
+        <item name="colorControlActivated">@color/budget_green</item>
+        <item name="colorSwitchThumbNormal">@color/budget_red</item>
+    </style>
+
+    <!-- Floating Label text -->
+    <style name="TextLabelDark" parent="AppTheme">
+        <item name="android:textColorHint">@color/primary_text</item>
+        <item name="colorAccent">@color/primary_text</item>
+        <item name="colorControlNormal">@color/primary_text</item>
+        <item name="colorControlActivated">@color/primary_text</item>
+    </style>
+
+    <!--Timepicker Dialog-->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primary</item>
+        <item name="colorControlNormal">#ffffff</item>
+    </style>
+
+    <!--Date Range Picker-->
+    <style name="HeaderTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/caldroid_black</item>
+    </style>
+
+    <!-- Other -->
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+
+</resources>
