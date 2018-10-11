@@ -6,9 +6,9 @@ Financial management is very important. Especially in Hong Kong, it is not only 
 <a href="https://github.com/yfyau/MoneyDrive/blob/master/Report.pdf">Read more in the Full version PDF</a>.
 
 # References
-Caldroid    by roomorama
-https://github.com/roomorama/Caldroid
-BottomBar   by roughike
-https://github.com/roughike/BottomBar
-MPAndroidChart API    by PhilJay
-https://github.com/PhilJay/MPAndroidChart
+Caldroid &emsp; by roomorama<br/>
+https://github.com/roomorama/Caldroid<br/>
+BottomBar &emsp; by roughike<br/>
+https://github.com/roughike/BottomBar<br/>
+MPAndroidChart API &emsp; by PhilJay<br/>
+https://github.com/PhilJay/MPAndroidChart<br/>
