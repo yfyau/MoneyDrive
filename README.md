@@ -1,7 +1,4 @@
 # MoneyDrive
+Financial management is very important. Especially in Hong Kong, it is not only used to saving money for buying those expensive houses. And in somehow, it also relates with people’s life. We can see people ended their own life time by time because of they were facing some financial difficulties. Therefore, my application idea is a money manager which can remind users pay for their credit card’s bill and build up good financial habits. Moreover, the data of the money manager can be shared between a group of people which acts like a money manager version of Google Drive. As the result, I call it “Money Drive”.
 
-<object width="400" height="500" type="application/pdf" data="https://github.com/yfyau/MoneyDrive/blob/master/Report.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0">
-    <p>This browser does not support PDFs. Please download the PDF to view it: 
-        <a href="https://github.com/yfyau/MoneyDrive/blob/master/Report.pdf">Download PDF</a>.
-    </p>
-</object>
+<a href="https://github.com/yfyau/MoneyDrive/blob/master/Report.pdf">Read more in the Full version PDF</a>.
